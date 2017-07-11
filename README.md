@@ -2,6 +2,11 @@
 
 A basic folder structure and set of starter files for the Code First Girls project
 
+## Prerequisite
+
+Install NodeJS.
+Go to https://nodejs.org and download the LTS version
+
 ## Getting started
 
 All these steps happen in terminal
@@ -24,13 +29,19 @@ cd [wherever you put it]/codefirstgirls
 npm install
 ```
 
-4. Compile all the css, js, html and icons; Start the server; Watch for changes to css, js and html
+4. Install gulp
+
+```
+sudo npm install -g gulp
+```
+
+5. Compile all the css, js, html and icons; Start the server; Watch for changes to css, js and html
 
 ```
 gulp
 ```
 
-5. Visit the site in your favorite browser
+6. Visit the site in your favorite browser
 
 ```
 http://localhost:2017
