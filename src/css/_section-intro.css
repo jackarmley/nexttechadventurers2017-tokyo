@@ -4,6 +4,9 @@
  * Start all rules with .section-intro
  */
 .section-intro .section-heading{
-  font-style:oblique;
-
+  font-family: 'Revalia', cursive  ;
+  color: red
+}
+em{
+  font-weight: bold;
 }

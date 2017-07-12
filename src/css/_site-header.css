@@ -5,3 +5,6 @@
 .site-header {
   padding: 20px;
 }
+.site-header .site-title {
+  font-family: Revalia, cursive;
+}

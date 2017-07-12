@@ -3,3 +3,9 @@
  *
  * Start all rules with .section-location
  */
+.section-location h4{
+  font-family: 'Revalia' ,cursive;
+}
+.section-location iframe{
+  height: 100%;
+}
