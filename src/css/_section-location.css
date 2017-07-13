@@ -5,6 +5,7 @@
  */
 .section-location h4{
   font-family: 'Revalia' ,cursive;
+  color: red;
 }
 .section-location iframe{
   height: 100%;

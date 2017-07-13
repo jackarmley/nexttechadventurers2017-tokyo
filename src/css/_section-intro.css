@@ -5,8 +5,8 @@
  */
 .section-intro .section-heading{
   font-family: 'Revalia', cursive  ;
-  color: red
+  color: red;
 }
-em{
+.section-intro em{
   font-weight: bold;
 }
