@@ -3,3 +3,6 @@
  *
  * Start all rules with .section-wishlist
  */
+ .section-wishlist li{
+   color:red;
+   }
