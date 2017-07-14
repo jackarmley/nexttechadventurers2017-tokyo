@@ -2,7 +2,21 @@
  * Gallery section styles
  *
  * Start all rules with .section-gallery
- */
-.section-heading{
-  color:green;
+ */@import url('https://fonts.googleapis.com/css?family=Revalia');
+.section-gallery .section-heading{
+  color:red;
+  font-family:Revalia,cursive;
+}
+.section-gallery{
+  background-color: rgb(255, 239, 144);
+}
+.section-gallery figure{
+  margin-bottom: 50px;
+
+}
+.section-gallery figcaption{
+  font-size: 12px;
+}
+.section-gallery figure:hover{
+  filter: drop-shadow(16px 16px 20px red) contrast(200%);
 }
