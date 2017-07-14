@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Revalia');
+/**
+ * Site styles
+ */
+
+/**
+ * Reset styles
+ */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img,
+iframe {
+  width: 100%;
+  height: auto;
+}
+
+/**
+ * Typography
+ */
+
+body {
+  font: normal 100%/1.8 sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1.5em 0 1em;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+a {
+  color: currentColor;
+}
+
+ul,
+ol {
+  margin: 0 0 1em 2em;
+}
+
+nav ul {
+  margin: 0;
+  list-style: none;
+}
+
+/**
+ * Shared component styles
+ */
+
+.section {
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.section-heading {
+  margin: 0 0 20px;
+}
+
+/**
+ * Site header
+ */
+
+.site-header {
+  padding: 20px;
+}
+
+.site-header .site-title {
+  font-family: Revalia, cursive;
+  color: red;
+}
+
+/**
+ * Site footer
+ */
+
+.site-footer {
+  padding: 20px;
+}
+
+/**
+ * Intro section styles
+ *
+ * Start all rules with .section-intro
+ */
+
+.section-intro .section-heading {
+  font-family: 'Revalia', cursive;
+  color: red;
+  font-size: 25px;
+}
+
+.section-intro em {
+  font-weight: bold;
+}
+
+/**
+ * Wishlist section styles
+ *
+ * Start all rules with .section-wishlist
+ */
+
+.section-wishlist li {
+  color: red;
+}
+
+/**
+ * Gallery section styles
+ *
+ * Start all rules with .section-gallery
+ */
+
+.section-gallery .section-heading {
+  color: red;
+  font-family: Revalia,cursive;
+}
+
+.section-gallery {
+  background-color: rgb(255, 239, 144);
+}
+
+.section-gallery figure {
+  margin-bottom: 50px;
+}
+
+.section-gallery figcaption {
+  font-size: 12px;
+}
+
+.section-gallery figure:hover {
+  filter: drop-shadow(16px 16px 20px red) contrast(200%);
+}
+
+/**
+ * Location section styles
+ *
+ * Start all rules with .section-location
+ */
+
+.section-location h4 {
+  font-family: 'Revalia' ,cursive;
+  color: red;
+  font-size: 25px;
+}
+
+.section-location iframe {
+  height: 100%;
+}
+
+/**
+ * About section styles
+ *
+ * Start all rules with .section-about
+ */
+
+.section-about h6 {
+  font-size: 25px;
+  font-family: 'Revalia' ,cursive;
+  color: red;
+}
