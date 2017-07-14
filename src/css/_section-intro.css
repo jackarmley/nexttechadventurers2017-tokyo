@@ -3,3 +3,11 @@
  *
  * Start all rules with .section-intro
  */
+.section-intro .section-heading{
+  font-family: 'Revalia', cursive  ;
+  color: red;
+  font-size: 25px;
+}
+.section-intro em{
+  font-weight: bold;
+}
