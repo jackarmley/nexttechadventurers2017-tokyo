@@ -3,3 +3,8 @@
  *
  * Start all rules with .section-about
  */
+.section-about h6{
+  font-size: 25px;
+  font-family: 'Revalia' ,cursive;
+  color: red;
+}
